@@ -77,13 +77,17 @@ url: https://adventar.org/calendars/11403
 
 ***
 
-<div class="grid grid-cols-[50%_50%] gap-4">
+<div class="grid grid-cols-[30%_30%_40%] gap-4">
 
-<div class="scale-[0.7] origin-top">
+<div class="scale-[0.8] origin-top">
 　<Tweet id="1997511008244601074"/>
 </div>
 
-<div class="scale-[0.6] origin-top">
+<div class="scale-[0.8] origin-top">
+　<Tweet id="2001932870294872479"/>
+</div>
+
+<div class="scale-[0.7] origin-top">
 　<Tweet id="1999240112761352266"/>
 </div>
 
