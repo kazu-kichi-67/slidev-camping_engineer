@@ -1,4 +1,8 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Presentation Slide for キャンプ好きエンジニア Meetup Vol.6
+
+Event Page: https://camping-engineer.connpass.com/event/378195/
+
+# Usage
 
 To start the slide show:
 

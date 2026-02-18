@@ -1,7 +1,7 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
-title: My Presentation Template
+background: /takibi.png
+title: 年間30泊してたどり着いた推しギア紹介
 class: text-center
 drawings:
   persist: false
@@ -11,9 +11,10 @@ hideInToc: true
 lineNumbers: true
 ---
 
-# My Presentation Template
+# 年間30泊してたどり着いた
+# 推しギア紹介
 
-20yy/mm/dd presentation for XXXX
+2026/02/19 presentation for キャンプ好きエンジニア Meetup Vol.6
 
 @kazu_kichi_67
 
@@ -34,25 +35,135 @@ hide: false
 ---
 
 ---
-hideInToc: true
----
 
-# Agenda
+# 私も焚き火LTしてました🔥
 
 ***
 
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div class="scale-[0.8] origin-top">
+　<Tweet id="1971897203947143213"/>
+</div>
+
+<div class="scale-[0.8] origin-top">
+　<Tweet id="1971882320925020661"/>
+</div>
+
+</div>
+
+---
+layout: iframe-left
+
+# the web page source
+url: https://adventar.org/calendars/11403
+---
+
 <br>
-<Toc maxDepth="2"/>
+<br>
+<br>
+<br>
+<br>
+
+## キャンプ x エンジニア Advent Calendar 2025
+
+<br>
+
+## やってました！
+
+---
+
+# ピックアップでご紹介🔥
+
+***
+
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div class="scale-[0.7] origin-top">
+　<Tweet id="1997511008244601074"/>
+</div>
+
+<div class="scale-[0.6] origin-top">
+　<Tweet id="1999240112761352266"/>
+</div>
+
+</div>
+
+---
+
+# サイドイベントも同時開催🔥
+
+***
+
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div class="scale-[0.7] origin-top">
+　<Tweet id="1986993605177925794"/>
+</div>
+
+<div class="scale-[0.8] origin-top">
+　<Tweet id="1986995592023974251"/>
+</div>
+
+</div>
+
+---
+
+# ファイアグリルを紹介しました🔥
+
+***
+
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div class="scale-[0.6] origin-top">
+　<Tweet id="1986997739901849668"/>
+</div>
+
+<div class="scale-[0.6] origin-top">
+　<Tweet id="1986998839182860633"/>
+</div>
+
+</div>
 
 ---
 layout: section
 ---
 
-# Section1
+# が、しかし！！
+
+---
+layout: section
+---
+
+# まだ紹介できてない、
+
+# 超推し焚き火台
+
+---
+layout: section
+---
+
+# あります！！
+
+---
+layout: section
+---
+
+# RODAN
 
 ---
 
-## List Sample
+<img src="/IMG_5236.jpeg" class="scale-[0.7] origin-top"/>
+
+---
+layout: section
+---
+
+# 詳しくご紹介していきます!!🔥
+
+---
+
+# 推しポイント🔥
 
 ***
 
@@ -60,171 +171,293 @@ layout: section
 
 <v-clicks>
 
-- aaa
-- bbb
-- ccc
+- カッコイイ!!
+- 機能性
+- コンパクト
+- カスタマイズ性
+- 多段変形
 
 </v-clicks>
 
-<style>
-  ul {
-    font-size: 18pt;
-  }
-</style>
-
 ---
 
-## Table Sample
+# カッコイイ!!
 
 ***
 
-Table Sample.
+<br>
 
-|        |                              |
-| ------ | ---------------------------- |
-| AAAAAA | aaa                          |
-| BBB    | bbbbbbbb                     |
-| C      | <kbd>ccccccccccccccccc</kbd> |
+<div class="grid grid-cols-[60%_40%] gap-4">
 
----
-layout: section
----
+<div>
 
-<div id="highlight-contents">
-highlight!!!
+- <span v-mark.red>暖炉のような暖かい炎</span>
+- 無骨なデザイン
+- 写真映え
+
 </div>
 
-<style>
-  #highlight-contents {
-    font-size: 72pt;
-  }
-</style>
-
----
-layout: section
----
-
-# Section2
-
----
-
-## Code Sample
-
-***
-
-code sample.
-
-```java {*|3|2-4|1,5|*}
-class HelloWorld {
-	public static void main(String[] args) {
-		System.out.println("Hello, world.");
-	}
-}
-```
-
-<style>
-pre.slidev-code {
-    background-color: #1f2020;
-}
-</style>
-
----
-
-## Diagrams Sample
-
-***
-
-diagrams sample.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
+<div >
+ <img src="/IMG_5283.jpeg"/>
+</div>
 
 </div>
 
 ---
 
-## Tips
+# 機能性
 
 ***
 
-The <span v-mark.red><code>code</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange>inline marks</span>
-, powered by [Link](https://roughnotation.com/)
+<br>
 
-<logos-java class="text-7xl m-3 absolute right-20" />
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div>
+
+- 五徳を載せてお料理
+- 下にスペースがあるので、<span v-mark.circle.orange>ピザ</span>焼けます
+
+</div>
+
+<div class="scale-[0.6] origin-top">
+ <img src="/IMG_4023.JPG"/>
+</div>
+
+</div>
 
 ---
-layout: center
+
+# コンパクト
+
+***
+
+<br>
+
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div>
+
+- 専用ケース（別売り）
+- このサイズ感
+- 組み立て式
+
+</div>
+
+<div class="scale-[0.6] origin-top">
+ <img src="/IMG_8888.jpeg"/>
+</div>
+
+</div>
+
+---
+
+# カスタマイズ性
+
+***
+
+<br>
+
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div>
+
+- カスタムベロ
+- 丘キャンパーズコラボとヤモリ🦎
+
+</div>
+
+<div class="scale-[0.6] origin-top">
+ <img src="/IMG_4291.jpeg"/>
+</div>
+
+</div>
+
+
+---
+layout: iframe
+url: https://www.3zo.online/shop?%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA%E3%83%BC=Rodan%2520%25E3%2583%2591%25E3%2583%25BC%25E3%2583%2584
+---
+
+---
+
+# 多段変形
+
+***
+
+<br>
+
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div>
+
+- その日の気分で
+- 仲間同士持ち寄って
+- <span v-mark.circle.orange>満月</span>に🌝
+
+</div>
+
+<div class="scale-[0.8] origin-top">
+ <img src="/IMG_3974.jpeg"/>
+</div>
+
+</div>
+
+---
+layout: iframe
+url: https://www.3zo.online/rodan
+---
+
+---
+layout: section
+---
+
+# 「あなたと合体したい」
+
+by 創聖のアクエリオン 
+
+---
+
+# ここが残念ポイント😢
+
+***
+
+<br>
+
+<v-clicks>
+
+- 高い
+- 重い
+- 買いづらい
+
+</v-clicks>
+
+---
+
+# 高い
+
+***
+
+<br>
+
+- 本体 <span v-mark.red>¥20,350(税込)</span>
+- HANGETSUセット <span v-mark.red>¥44,000(税込)</span>
+- カスタムベロ <span v-mark.red>¥1,980(税込)</span>
+- アイアンテーブル、五徳、専用ケース、、、、
+
+---
+
+# 重い
+
+***
+
+<br>
+
+- 鉄の塊
+- HANGETSU状態で<span v-mark.circle.orange>2.5kg</span>
+- <span v-mark.red>ULキャンパーには向いてない</span>
+
+---
+
+# 買いづらい
+
+***
+
+<br>
+
+- 公式サイトでは常に<span v-mark.red>SOLD OUT</span>
+- 定期的に<span v-mark.circle.orange>抽選販売</span>
+- 私は出店してるイベントに行って買いました
+
+---
+layout: section
+---
+
+# 皆さんの推しも
+
+# ぜひ教えてください🙏
+
+---
+layout: section
+---
+
+# Appendix
+
+# (時間余ったら)
+
+---
+layout: section
+---
+
+<h2 class="absolute" >
+  荒船
+</h2>
+
+<div class="scale-[0.7] origin-top">
+  <img src="/IMG_5241.jpeg" />
+</div>
+
+---
+layout: section
+---
+
+<h2 class="absolute" >
+  テント①
+</h2>
+
+<div class="scale-[0.4] origin-top">
+  <img src="/IMG_8598.JPG" />
+</div>
+
+layout: section
+---
+
+<h2 class="absolute" >
+  テント②
+</h2>
+
+<div class="scale-[0.7] origin-top">
+  <img src="/IMG_5650.jpeg" />
+</div>
+
+layout: section
+---
+
+<h2 class="absolute" >
+  テント③
+</h2>
+
+<div class="scale-[0.4] origin-top">
+  <img src="/IMG_4152.JPG" />
+</div>
+
+layout: section
+---
+
+<h2 class="absolute" >
+  テント④⑤
+</h2>
+
+<div class="scale-[0.4] origin-top">
+  <img src="/IMG_8180.jpeg" />
+</div>
+
+---
 class: text-center
-hideInToc: true
 ---
+
+<br>
+<br>
 
 # End
 
-<PoweredBySlidev mt-10 />
+来週クラフトビールを飲むだけのイベントやるので来てね🍻
+
+
+https://startup-craft-beer.connpass.com/event/382880/
+
+<br>
+
+<div class="scale-[0.4] origin-top">
+  <img src="/startup-beer.png" />
+</div>
